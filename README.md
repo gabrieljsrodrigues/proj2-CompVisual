@@ -57,6 +57,16 @@ Ao final da execução, uma pasta `/output/` será gerada no ambiente e contará
 - `heatmap_sobel.png` / `heatmap_prewitt.png`: Mapas de calor representando as áreas de variação.
 - `grafico_metricas.png` e `grafico_diferenca.png`: Representações estatísticas dos resultados obtidos.
 
-## 📊 Veredito de Avaliação
+##  Veredito de Avaliação
 
 Ao fim da rotina, um score médio unindo o **F1-Score** e a métrica **IoU** é calculado. O filtro que apresentar a maior pontuação combinada ganha o "Veredito", demonstrando ser matematicamente a técnica de aproximação mais eficaz ao Canny para aquela imagem.
+
+## Referência Bibliográfica
+
+CANNY, John. A computational approach to edge detection. IEEE Transactions on Pattern Analysis and Machine Intelligence, v. PAMI-8, n. 6, p. 679-698, nov. 1986.
+
+GONZALEZ, Rafael C.; WOODS, Richard E. Processamento Digital de Imagens. 3. ed. São Paulo: Pearson Prentice Hall, 2010.
+
+PEDRINI, Hélio; SCHWARTZ, William Robson. Análise de Imagens Digitais: princípios, algoritmos e aplicações. São Paulo: Thomson Learning, 2007.
+
+MAINI, Raman; AGGARWAL, Himanshu. Study and comparison of various image edge detection techniques. International Journal of Image Processing (IJIP), v. 3, n. 1, p. 1-11, jan. 2009.
