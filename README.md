@@ -9,7 +9,7 @@
 
 Este projeto em Python, desenvolvido inicialmente no Jupyter Notebook/Google Colab, aplica diferentes algoritmos de detecção de bordas em uma imagem e compara os resultados obtidos. O algoritmo de **Canny** é utilizado como referência matemática e visual (baseline) para avaliar o desempenho dos filtros de **Sobel** e **Prewitt**.
 
-## 📌 Funcionalidades
+##  Funcionalidades
 
 - **Pré-processamento:** Carregamento da imagem fornecida pelo usuário, conversão para escala de cinza e aplicação de desfoque (*Gaussian Blur*) para redução de ruído.
 - **Detecção de Bordas:**
@@ -27,7 +27,7 @@ Este projeto em Python, desenvolvido inicialmente no Jupyter Notebook/Google Col
   - Mapas de calor (Heatmaps) das diferenças absolutas.
   - Gráficos de barras comparando visualmente as métricas e a diferença percentual.
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - [Python 3](https://www.python.org/)
 - [OpenCV](https://opencv.org/) (`cv2`) - Processamento central de imagens
@@ -35,7 +35,7 @@ Este projeto em Python, desenvolvido inicialmente no Jupyter Notebook/Google Col
 - [Matplotlib](https://matplotlib.org/) - Geração analítica dos gráficos e heatmaps
 - [Google Colab](https://colab.research.google.com/) - Ambiente base de execução (uso integrado com pacotes como `google.colab.patches`)
 
-## 🚀 Como Executar
+##  Como Executar
 
 1. Abra o arquivo `ProjetoCompVis.ipynb` no Google Colab.
 2. Certifique-se de executar a primeira célula para instalar as dependências obrigatórias (ex: `!pip install opencv-python`).
@@ -46,7 +46,7 @@ Este projeto em Python, desenvolvido inicialmente no Jupyter Notebook/Google Col
    - Apresentar o painel visual de resultados.
    - Imprimir as tabelas de métricas e o veredito final indicando qual filtro (Sobel ou Prewitt) performou de forma mais semelhante ao Canny.
 
-## 📁 Estrutura de Saída (Pasta `output/`)
+##  Estrutura de Saída (Pasta `output/`)
 
 Ao final da execução, uma pasta `/output/` será gerada no ambiente e contará com os seguintes resultados:
 
